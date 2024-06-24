@@ -1,0 +1,65 @@
+BOGO
+--------------------------------------------------------------------------------------------------
+Ecommerce Seller app is having the Big Christmas Sale. The marketing team came up with the
+initiative of discount Coupon: BOGO (Buy One Get One Free) to give free products to
+customers. The Customer Success team would like to make sure that this BOGO maximizes the
+discount for customers.
+---------------------------------------------------------------------------------------------------
+Offer Rule 1
+For each product the customer adds to the bag for full price, the customer gets one product of a
+lesser or equal value to get for free. Given the prices of all the products, determine the minimum
+total amount of the Bag. Write a code in Python to deliver BOGO.
+
+Input : Product Price in List
+Output: The Total Bag Price
+
+Example1:
+Input:
+Product Price List = [10, 20, 30, 40, 50, 60]
+Output:
+Discounted Items = [50, 30, 10]
+Payable Items = [60, 40, 20]
+
+Example 2:
+Input:
+Product Price List = [10, 20, 30, 40, 50, 50, 60]
+Output:
+Discounted Items = [50, 40, 20]
+Payable Items = [60, 50, 30, 10]
+
+-----------------------------------------------------------------------------------------------------
+
+Offer Rule 2: Customers can buy one product and get another product for free as long as the
+price of the product is less than the price of the other product in pairs.
+
+Example 1 :
+Input:
+Product Price List = [ 10, 20, 30, 40, 40, 50, 60, 60]
+Output:
+Discounted Items = [50, 40, 30, 10]
+Payable Items = [60, 60, 40, 20]
+
+Example 2:
+Input:
+Product Price List = [10, 20, 30, 40, 50, 50, 50, 60]
+Output:
+Discounted Items = [50, 40, 30, 10]
+Payable Items = [60,50, 50, 20]
+
+--------------------------------------------------------------------------------------------------------
+
+Offer Rule 3: Customers can buy two products and get two products for free as long as the
+price of the product is less than the price of the first product.
+
+Example1:
+Input:
+Product Price List = [10, 20, 30, 40, 40, 50, 60, 60]
+Output:
+Discounted Items = [50, 40, 30, 10]
+Payable Items = [60, 60, 40, 20]
+Example2:
+Input:
+Product Price List = [10, 20, 30, 40, 50, 50, 50, 60]
+Output:
+Discounted Items = [50, 40, 30, 10]
+Payable Items = [60, 50, 50, 20]
