@@ -65,6 +65,9 @@ Organize the repository in a meaningful way. Here's an example structure:
 - multi_part_functions: For projects with multiple parts/files. Each project should have its own folder.
 - README.md: This file.
 
+## License
+This project is licensed under the MIT License. By contributing, you agree that your contributions will be licensed under the MIT License.
+
 ## Contribute
 We welcome contributions from everyone. Here’s how you can help:
 
