@@ -3,3 +3,8 @@
 # Otherwise if they play less than 5 rounds then whoever wins the most round between them will be the winner.
 # Players can stop at any round and if they won equal round of game, then the game will be considered as a DRAW.
 # Each Player will have equal amout of rounds as this is the game's rule.
+
+# The Rules Of The Games:
+# Stone Wins against Scissor BUT Loses to Paper.
+# Paper Wins against Stone BUT Loses to Scissor.
+# Scissor Wins against Paper but Loses to Stone.
