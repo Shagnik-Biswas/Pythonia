@@ -4,11 +4,14 @@
 🧑‍💻 This is a small Python3 script that allows you to read a .csv file 
 and can filter its headers and displays summary statistics of the csv file.
 
-## Insignia
+## Considerations
+First you must install the pandas library using the following command: 
+'pip install pandas`
+
+## Badge
 Add badges from somewhere like: [shields.io](https://shields.io/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
 
 
 ## Contributing
