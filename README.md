@@ -32,7 +32,8 @@ Contributing to this repository is simple. Follow the steps below to get started
    ```bash
    git push origin my-new-function
 7. Create a Pull Request: Go to the original repository and click on the `New Pull Request` button.
-8. 
+8. Also update requirements.txt file according to your project.
+
 ## Guidelines
 To ensure the repository remains organized and useful, please follow these guidelines when contributing:
 
